@@ -1,0 +1,29 @@
+
+
+.table {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    /*border: 1px solid rgba(209, 213, 219, 0.3);*/
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px 0 0 0;
+
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+    font-weight: bold;
+}
+
+.cell:first-child {
+    border-left: none;
+}
+
+
+
+
