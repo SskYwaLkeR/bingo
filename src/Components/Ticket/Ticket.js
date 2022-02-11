@@ -3,7 +3,7 @@ import tambola from "tambola";
 import "./ticket.css";
 
 export const Ticket = () => {
-  const [tickets, setTicket] = useState(tambola.generateTicket());
+  const [tickets] = useState(tambola.generateTicket());
   const [selectedCell, setSelectedCell] = useState({});
 
   const handleCellClick = (item) => {
