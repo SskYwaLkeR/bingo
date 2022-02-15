@@ -7,6 +7,7 @@ function App() {
       <div className="wrapper">
         <h1 className="title">Bingo</h1>
         <Ticket />
+        <img className="prizes" src="/prizes.png" alt="" />
       </div>
     </div>
   );
