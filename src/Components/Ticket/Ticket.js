@@ -21,8 +21,8 @@ export const Ticket = () => {
               <td
                 className="cell"
                 style={{
-                  background: selectedCell[item] && "#ff42c6",
-                  color: selectedCell[item] && "#fff",
+                  background: selectedCell[item] && "#1e9f09",
+                  color: selectedCell[item] && "#ffffff",
                 }}
                 onClick={() => handleCellClick(item)}
               >
