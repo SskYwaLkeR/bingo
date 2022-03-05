@@ -14,10 +14,57 @@
 
 
 
+.top-header {
+    width: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tambola {
+    width: 240px;
+    height: 147px;
+}
+
 
 .prizes {
     width: calc(100% - 16px);
     margin-top: 16px;
 }
+
+/*@media screen and (orientation: landscape){*/
+/*    .root {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .App {*/
+/*        display: none;*/
+/*    }*/
+/*    .top-header {*/
+/*       display: none;*/
+/*    }*/
+/*    .wrapper {*/
+/*        display: none;*/
+
+/*    }*/
+
+
+/*    .tambola {*/
+/*        display: none;*/
+
+/*    }*/
+
+
+/*    .prizes {*/
+/*        display: none;*/
+
+/*    }*/
+
+/*    */
+
+/*}*/
 
 

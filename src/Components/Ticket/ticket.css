@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 
@@ -13,22 +14,39 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    width: 100%;
 }
 
 .cell {
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
     text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     font-weight: bold;
     display: inline-flex;
-    margin-right: 3px;
-    margin-bottom: 3px;
+    margin: 2px;
     justify-content: center;
     align-items: center;
 }
+
+.cell:first-child{
+    margin-left: 8px;
+}
+
+/*@media screen and (orientation: landscape){*/
+/*    .table {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .cell {*/
+/*        display: none;*/
+/*    }*/
+
+
+/*    */
+/*}*/
 
 
 
