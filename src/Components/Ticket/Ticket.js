@@ -14,15 +14,19 @@ export const Ticket = () => {
 
   return (
     <div className="container">
-      <table className="table">
+      <table
+        className="table"
+        style={{ backgroundImage: `url('/table-bg.png')` }}
+      >
         {tickets.map((ticket) => (
           <tr className="row">
             {ticket.map((item) => (
               <td
                 className="cell"
                 style={{
-                  background: selectedCell[item] && "#1e9f09",
-                  color: selectedCell[item] && "#ffffff",
+                  backgroundImage: selectedCell[item]
+                    ? `url('select.png')`
+                    : `url('unselect.png')`,
                 }}
                 onClick={() => handleCellClick(item)}
               >

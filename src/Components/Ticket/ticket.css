@@ -1,7 +1,6 @@
 
 
 .container {
-    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,27 +8,26 @@
 
 
 .table {
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(255, 255, 255, 0.75);
-    /*border: 1px solid rgba(209, 213, 219, 0.3);*/
-    border: 1px solid black;
-    border-collapse: collapse;
-    margin: 10px 0 0 0;
-
+    border-radius: 20px;
+    padding: 13px 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .cell {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     text-align: center;
-    border-left:solid black 1px;
-    border-top:solid black 1px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     font-weight: bold;
-}
-
-.cell:first-child {
-    border-left: none;
+    display: inline-flex;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    justify-content: center;
+    align-items: center;
 }
 
 

@@ -3,11 +3,14 @@ import Ticket from "./Components/Ticket";
 
 function App() {
   return (
-    <div className="App" style={{ backgroundImage: `url('/background.png')` }}>
-      <div className="wrapper">
-        <h1 className="title">Bingo</h1>
-        <Ticket />
-        <img className="prizes" src="/prizes.png" alt="" />
+    <div className="root" style={{ backgroundImage: `url('/bg.png')` }}>
+      <img className="prizes" src="/top-header.png" alt="" />
+      <div className="App">
+        <div className="wrapper">
+          <img className="prizes" src="/tambola.png" alt="" />
+          <Ticket />
+          <img className="prizes" src="/option-tray.png" alt="" />
+        </div>
       </div>
     </div>
   );
